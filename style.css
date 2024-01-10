@@ -1,0 +1,15 @@
+#navbarToggler{
+    flex-direction: row-reverse;
+}
+
+.profile p{
+    margin: 5px;
+}
+
+.card.border-1{
+    background: rgb(240, 240, 240);
+}
+
+.card{
+    background: rgb(240, 240, 240);
+}
