@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Portofolio</title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="css/style.css">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
 </head>
 <body>
@@ -48,8 +48,8 @@
                     <img src="profile.png" width="150">
                 </div>
                 <div class="col-md-4 col-sm-12 text-sm-center text-md-start">
-                    <h1>Marcelinus Yoga</h1>
-                    <p>Front End Developer</p>
+                    <h1 id="namaValue">Marcelinus Yoga</h1>
+                    <p id="roleValue">Front End Developer</p>
                     <button class="btn btn-success me-2" type="submit">Kontak</button>
                     <button type="button" class="btn btn-outline-success">Rename</button>
                 </div>
@@ -61,49 +61,49 @@
                     <p><strong>Email</strong></p>
                 </div>
                 <div class="col-md-3 col-sm-6 mt-sm-3 mt-md-0 profile">
-                    <p>Full Time</p>
-                    <p>19</p>
-                    <p>Jakarta</p>
-                    <p>2</p>
-                    <p>yudistira1yoga@gmail.com</p>
+                    <p id="availabilityValue">Full Time</p>
+                    <p id="usiaValue">19</p>
+                    <p id="lokasiValue">Jakarta</p>
+                    <p id="yearsValue">2</p>
+                    <p id="emailValue">yudistira1yoga@gmail.com</p>
                 </div>
             </div>
           </div>
         </div>
     </div>
-    <div class="main-porto">
+    <div class="main-porto" id="form-ubah">
       <div class="container mt-5 mb-4">
         <div class="card border-1">
           <div class="row m-4">
             <div class="col-12">
-              <form action="" method="">
+              <form id="formData" action="" method="">
                 <div class="mb-3">
                   <label for="formGroup" class="form-label"><strong>Nama</strong></label>
-                  <input type="text" class="form-control" id="formGroup" placeholder="Masukkan Nama">
+                  <input type="text" class="form-control" id="nama" placeholder="Masukkan Nama">
                 </div>
                 <div class="mb-3">
                   <label for="formGroup" class="form-label"><strong>Role</strong></label>
-                  <input type="text" class="form-control" id="formGroup" placeholder="Masukkan Role">
+                  <input type="text" class="form-control" id="role" placeholder="Masukkan Role">
                 </div>
                 <div class="mb-3">
                   <label for="formGroup" class="form-label"><strong>Availability</strong></label>
-                  <input type="text" class="form-control" id="formGroup" placeholder="Masukkan Availability">
+                  <input type="text" class="form-control" id="availability" placeholder="Masukkan Availability">
                 </div>
                 <div class="mb-3">
                   <label for="formGroup" class="form-label"><strong>Lokasi</strong></label>
-                  <input type="text" class="form-control" id="formGroup" placeholder="Masukkan Lokasi">
+                  <input type="text" class="form-control" id="lokasi" placeholder="Masukkan Lokasi">
                 </div>
                 <div class="mb-3">
                   <label for="formGroup" class="form-label"><strong>Usia</strong></label>
-                  <input type="text" class="form-control" id="formGroup" placeholder="Masukkan Usia (dalam tahun)">
+                  <input type="text" class="form-control" id="usia" placeholder="Masukkan Usia (dalam tahun)">
                 </div>
                 <div class="mb-3">
                   <label for="formGroup" class="form-label"><strong>Years Experience</strong></label>
-                  <input type="text" class="form-control" id="formGroup" placeholder="Masukkan Years Experience">
+                  <input type="text" class="form-control" id="years" placeholder="Masukkan Years Experience">
                 </div>
                 <div class="mb-3">
                   <label for="formGroup" class="form-label"><strong>Email</strong></label>
-                  <input type="email" class="form-control" id="formGroup" placeholder="Masukkan Email">
+                  <input type="email" class="form-control" id="email" placeholder="Masukkan Email">
                 </div>
                 <div class="mb-3">
                   <button type="submit" class="btn btn-success w-100">Submit</button>
@@ -118,5 +118,6 @@
       </div>
     </div>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+    <script src="js/script.js"></script>
 </body>
 </html>
